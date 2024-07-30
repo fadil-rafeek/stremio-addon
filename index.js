@@ -46,7 +46,7 @@ builder.defineCatalogHandler(({ type, id, extra }) => {
 builder.defineStreamHandler(({ type, id }) => {
     if ((type === "movie" || type === "series") && id === "yt_id:dQw4w9WgXcQ") {
         // Replace with your own video URL
-        const videoUrl = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+        const videoUrl = "https://rcw6bat4y3dx8.pradoi.com/v/01/01069/a1ugirlmezsn_o/oh-my-venus-episode-2.mp4?t=8GvgNjdudCWeuInBGOayUqYUPVWZb4qOEGBGyUHra9Q&s=1722323278&e=129600&f=5347368&sp=400&i=0.0";
         
         return Promise.resolve({ streams: [{ title: "Sample Video", url: videoUrl }] });
     } else {
