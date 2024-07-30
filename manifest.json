@@ -1,0 +1,18 @@
+{
+    "id": "org.stremio.sampleaddon",
+    "version": "1.0.0",
+    "name": "Sample Addon",
+    "description": "Sample addon to play a video from a URL",
+    "resources": ["catalog", "stream"],
+    "types": ["movie", "series"],
+    "idPrefixes": ["yt_id:"],
+    "catalogs": [
+        {
+            "type": "movie",
+            "id": "sample_catalog",
+            "name": "Sample Catalog"
+        }
+    ],
+    "background": "https://www.example.com/background.jpg",
+    "logo": "https://www.example.com/logo.png"
+}
