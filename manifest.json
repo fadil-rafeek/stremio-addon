@@ -9,7 +9,7 @@
     "catalogs": [
         {
             "type": "movie",
-            "id": "sample_catalog",
+            "id": "GOOFY",
             "name": "Sample Catalog"
         }
     ],
