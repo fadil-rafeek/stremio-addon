@@ -12,8 +12,8 @@ const manifest = {
     catalogs: [
         {
             type: "movie",
-            id: "sample_catalog",
-            name: "Sample Catalog"
+            id: "goofy",
+            name: "goofy"
         }
     ],
     background: "https://www.example.com/background.jpg",
